@@ -144,7 +144,7 @@
   <baudRateOverride>115200</baudRateOverride>
   <overridePrinterModels>0</overridePrinterModels>
   <printerModelsOverride></printerModelsOverride>
-  <startingGcode>; F4NG S3D start script,; Revision 2021.09.20,M98 P&quot;/macros/resetfilmon.g&quot;,M104 S0,G21,G90,T0,G92 E0,M220 S100,set global.preroll = 0.6,M190 S[bed2_temperature],G32,set global.preroll = 0.2,M109 S[extruder0_temperature],M98 P&quot;/macros/resetfilmon.g&quot;,G1 Z10.0 F2000,G1 E30.0 F500,G1 X20 Y15 F9000,G1 Z0.2 F1000,G1 X150 E4 F10000,G92 E0,set global.preroll = 1</startingGcode>
+  <startingGcode>; F4NG S3D start script,; Revision 2021.09.20,M98 P&quot;/macros/resetfilmon.g&quot;,M104 S0,G21,G90,T0,G92 E0,M220 S100,set global.preroll = 0.6,M572 D0 S0,M190 S[bed2_temperature],G32,set global.preroll = 0.2,M109 S[extruder0_temperature],M98 P&quot;/macros/resetfilmon.g&quot;,G1 Z10.0 F2000,G1 E30.0 F500,G1 X20 Y15 F9000,G1 Z0.2 F1000,G1 X150 E4 F10000,G92 E0,set global.preroll = 0</startingGcode>
   <layerChangeGcode></layerChangeGcode>
   <retractionGcode></retractionGcode>
   <toolChangeGcode></toolChangeGcode>
