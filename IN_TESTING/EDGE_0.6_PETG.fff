@@ -90,7 +90,7 @@
     <temperatureNumber>0</temperatureNumber>
     <isHeatedBed>0</isHeatedBed>
     <stabilizeAtStartup>0</stabilizeAtStartup>
-    <setpoint layer="1" temperature="260"/>
+    <setpoint layer="1" temperature="280"/>
   </temperatureController>
   <temperatureController name="Heated Bed">
     <temperatureNumber>2</temperatureNumber>
